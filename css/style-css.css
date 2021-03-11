@@ -1,15 +1,15 @@
 /*--------------------------INDEX BEM*/
 /*MENU BEM*/
 .menuBem {
-  background-color: rgba(79, 218, 37, 0.18);
-  border-radius: 5px;
-  margin: 0vh 0vh 2vh 0vh;
+  background-color: rgba(129, 178, 197, 0.18);
+  border-radius: 0;
+  margin: 0vh 0vh 0vh 0vh;
   padding-top: 0vh; }
 
 .menuBem--titulos {
-  color: #75622d;
+  color: #21615d;
   font-size: 40px;
-  text-shadow: 1px 1px 5px black; }
+  text-shadow: 1px 1px 5px white; }
 
 /*.menuBem--activo{
     background-color: rgb(117, 98, 45);
@@ -17,13 +17,13 @@
     margin: 1vh 1vh 1vh 1vh;
 }*/
 .menuBem--titulosActivos {
-  color: #75622d;
+  color: #21615d;
   font-size: 35px;
   text-shadow: 1px 1px 5px white; }
 
 /*GALERIA BEM*/
 .galeriaBem {
-  background-color: rgba(79, 218, 37, 0.18); }
+  background-color: rgba(129, 178, 197, 0.6); }
 
 .galeriaBem__activo {
   opacity: 0.5;
@@ -35,9 +35,9 @@
 .galeriaBem--notorio {
   font-size: 250%;
   text-align: center;
-  color: #75622d;
-  text-shadow: 2px 2px 5px black;
-  font-size: 50px; }
+  color: #21615d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px white; }
 
 .galeriaBem--imagenes {
   width: 70vh;
@@ -50,31 +50,36 @@
 
 /*PROTOCOLO BEM*/
 .protocoloBem {
-  background-color: rgba(79, 218, 37, 0.18);
-  border-radius: 10px;
+  background-color: rgba(129, 178, 197, 0.6);
+  border-radius: 0px;
   margin: 0vh 2vh 2vh 2vh;
-  padding-top: 4vh; }
+  padding-top: 5vh; }
 
 .protocoloBem--titulos {
+  color: #21615d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px white; }
+
+.protocoloBem--formulario {
   color: #75622d;
-  font-size: 50px;
+  font-size: 20px;
   text-shadow: 2px 2px 5px black; }
 
 /*ETAPAS BEM*/
 .etapasBem {
-  background-color: rgba(79, 218, 37, 0.18);
-  border-radius: 10px;
+  background-color: rgba(129, 178, 197, 0.6);
+  border-radius: 0px;
   margin: 0vh 2vh 2vh 2vh;
-  padding-top: 4vh; }
+  padding-top: 5vh; }
 
 .etapasBem--titulos {
-  color: #75622d;
-  font-size: 50px;
-  text-shadow: 2px 2px 5px black; }
+  color: #21615d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px white; }
 
 /*SOLICITUDES BEM*/
 .solicitudesBem {
-  background-color: rgba(79, 218, 37, 0.18);
+  background-color: rgba(129, 178, 197, 0.6);
   border-radius: 10px;
   margin: 0vh 2vh 2vh 2vh;
   padding-top: 4vh; }
@@ -83,13 +88,13 @@
   margin: 1vh 1vh 5vh 1vh; }
 
 .solicitudesBem--titulos {
-  color: #75622d;
-  font-size: 50px;
-  text-shadow: 2px 2px 5px black; }
+  color: #21615d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px white; }
 
 /*FOOTER BEM*/
 .footerBem {
-  background-color: rgba(79, 218, 37, 0.18);
+  background-color: rgba(129, 178, 197, 0.18);
   border-radius: 10px;
   margin: 0vh 2vh 2vh 2vh;
   padding-top: 4vh; }
@@ -101,50 +106,66 @@
 
 /*MONITOREO BEM*/
 .herramientaBem {
-  background-color: rgba(79, 218, 37, 0.18);
+  background-color: rgba(129, 178, 197, 0.6);
   border-radius: 10px;
-  margin: 0vh 2vh 2vh 2vh;
+  margin: 2vh 2vh 2vh 2vh;
   padding-top: 4vh; }
 
 .herramientaBem__mapa {
   width: 180vh;
-  height: 80vh;
-  display: inline;
-  margin: 2vh 20vh 2vh 0vh;
-  padding: 2vh 2vh 2vh 2vh;
-  border-radius: 15px;
-  border: solid black; }
+  height: 120vh;
+  border-radius: 15px; }
 
 .herramientaBem__titulos {
-  color: #75622d;
-  font-size: 50px;
-  text-shadow: 2px 2px 5px black;
+  color: #21615d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px white;
   text-align: center; }
 
 /*RECORRIDO BEM*/
 .recorridoBem {
-  background-color: rgba(79, 218, 37, 0.18);
+  background-color: rgba(129, 178, 197, 0.18);
   border-radius: 10px;
   margin: 0vh 2vh 2vh 2vh;
   padding-top: 4vh; }
 
 .recorridoBem__360 {
-  width: 180vh;
+  width: 160vh;
   height: 80vh;
-  display: inline;
-  margin: 2vh 25vh 2vh 0vh;
+  margin: 2vh 2vh 2vh 0vh;
   padding: 2vh 2vh 2vh 2vh;
   border-radius: 15px;
   border: solid black; }
 
 .recorridoBem__titulos {
-  color: #75622d;
-  font-size: 50px;
-  text-shadow: 2px 2px 5px black;
+  color: #21615d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px white;
+  text-align: center; }
+
+/*VOLUNTARIO BEM*/
+.voluntarioBem {
+  background-color: rgba(129, 178, 197, 0.18);
+  border-radius: 10px;
+  margin: 0vh 2vh 2vh 2vh;
+  padding-top: 4vh; }
+
+.voluntarioBem__formulario {
+  width: 160vh;
+  height: 80vh;
+  margin: 2vh 2vh 2vh 0vh;
+  padding: 2vh 2vh 2vh 2vh;
+  border-radius: 15px;
+  border: solid black; }
+
+.voluntarioBem__titulos {
+  color: #21615d;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px white;
   text-align: center; }
 
 body {
-  background-color: #75622d !important; }
+  background-color: whitesmoke !important; }
 
 div div {
   margin: 2vh 2vh 2vh 2vh; }
@@ -253,7 +274,7 @@ a:hover, a:link, a:active {
 /*Index Containers and elements*/
 .indexContainer {
   display: grid;
-  grid-template-areas: "header header header header header header header header header" "header header header header header header header header header" "navigation navigation navigation navigation navigation navigation navigation navigation navigation" "navigation navigation navigation navigation navigation navigation navigation navigation navigation" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "footer footer footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer footer footer";
+  grid-template-areas: "header header header header header header header header header" "header header header header header header header header header" "navigation navigation navigation navigation navigation navigation navigation navigation navigation" "navigation navigation navigation navigation navigation navigation navigation navigation navigation" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "galeria galeria galeria galeria galeria galeria galeria galeria galeria" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion" "footer footer footer footer footer footer footer footer footer" "footer footer footer footer footer footer footer footer footer";
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-gap: 0vh; }
@@ -292,7 +313,7 @@ a:hover, a:link, a:active {
 }*/
 .navMenu {
   display: grid;
-  grid-template-areas: "galeria etapas protocolo" "galeria etapas protocolo" "... voluntario solicitudes" "... voluntario solicitudes";
+  grid-template-areas: "galeria etapas protocolo" "galeria etapas protocolo" "... voluntario solicitudes" "... voluntario solicitudes";
   grid-template-columns: 200px;
   grid-template-rows: 1500px;
   grid-gap: 0.5vh; }
@@ -366,6 +387,9 @@ a:hover, a:link, a:active {
   grid-area: investigacion;
   text-align: center; }
 
+.formBoton {
+  text-align: center; }
+
 .footer {
   padding: 2% 10% 2% 10%;
   margin: 0.2% 0.0% 2% 0%;
@@ -374,7 +398,7 @@ a:hover, a:link, a:active {
 /*Monitoreo Container and elements*/
 .monitoreoContainer {
   display: grid;
-  grid-template-areas: "header header header header header header" "header header header header header header" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+  grid-template-areas: "header header header header header header" "header header header header header header" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "herramienta herramienta herramienta herramienta herramienta herramienta" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
   grid-template-columns: 100px;
   grid-template-rows: auto;
   grid-gap: 1vh; }
@@ -387,7 +411,7 @@ a:hover, a:link, a:active {
 /*Voluntariadeo Container and elements*/
 .voluntarioContainer {
   display: grid;
-  grid-template-areas: "header header header header header header" "header header header header header header" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+  grid-template-areas: "header header header header header header" "header header header header header header" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "voluntario voluntario voluntario voluntario voluntario voluntario" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
   grid-template-columns: 100px;
   grid-template-rows: auto;
   grid-gap: 1vh; }
@@ -395,5 +419,4 @@ a:hover, a:link, a:active {
 .voluntario {
   padding: 2% 10% 2% 10%;
   margin: 0.2% 0.0% 2% 0%;
-  grid-area: voluntario;
-  border: solid black; }
+  grid-area: voluntario; }
