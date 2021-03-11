@@ -1,15 +1,16 @@
 /*--------------------------INDEX BEM*/
 /*MENU BEM*/
 .menuBem{
-    background-color: rgba(79, 218, 37, 0.18);
-    border-radius: 5px;
-    margin: 0vh 0vh 2vh 0vh;
+    background-color: rgba(129, 178, 197, 0.18);
+    border-radius: 0;
+    margin: 0vh 0vh 0vh 0vh;
     padding-top: 0vh;
 }
 .menuBem--titulos{
-    color: rgba(117, 98, 45, 1);
+    color: rgba(33, 97, 93, 255);
     font-size: 40px;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    
 }
 /*.menuBem--activo{
     background-color: rgb(117, 98, 45);
@@ -17,14 +18,14 @@
     margin: 1vh 1vh 1vh 1vh;
 }*/
 .menuBem--titulosActivos{
-    color: rgba(117, 98, 45, 1);
+    color: rgba(33, 97, 93, 255);
     font-size: 35px;
     text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
 
 /*GALERIA BEM*/
 .galeriaBem{
-    background-color: rgba(79, 218, 37, 0.18);
+    background-color: rgba(129, 178, 197, 0.6);
 }
 
 .galeriaBem__activo{
@@ -38,9 +39,9 @@
 .galeriaBem--notorio{
     font-size: 250%;
     text-align: center;
-    color: rgba(117, 98, 45, 1);
-    text-shadow: 2px 2px 5px black;
-    font-size: 50px;
+    color: rgba(33, 97, 93, 255);
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
 .galeriaBem--imagenes{
     width: 70vh;
@@ -55,48 +56,57 @@
 
 /*PROTOCOLO BEM*/
 .protocoloBem{
-    background-color: rgba(79, 218, 37, 0.18);
-    border-radius: 10px;
+    background-color: rgba(129, 178, 197, 0.6);
+    border-radius: 0px;
     margin: 0vh 2vh 2vh 2vh;
-    padding-top: 4vh;
+    padding-top: 5vh;
+    
 }
 .protocoloBem--titulos{
-    color: rgba(117, 98, 45, 1);
-    font-size: 50px;
-    text-shadow: 2px 2px 5px black;
+    color: rgba(33, 97, 93, 255);
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+
 }
+.protocoloBem--formulario {
+    color: #75622d;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black; }
+
 /*ETAPAS BEM*/
 .etapasBem{
-    background-color: rgba(79, 218, 37, 0.18);
-    border-radius: 10px;
+    background-color: rgba(129, 178, 197, 0.6);
+    border-radius: 0px;
     margin: 0vh 2vh 2vh 2vh;
-    padding-top: 4vh;
+    padding-top: 5vh;
+    
 }
 .etapasBem--titulos{
-    color: rgba(117, 98, 45, 1);
-    font-size: 50px;
-    text-shadow: 2px 2px 5px black;
+    color: rgba(33, 97, 93, 255);
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
 /*SOLICITUDES BEM*/
 
 .solicitudesBem{
-    background-color: rgba(79, 218, 37, 0.18);
+    background-color: rgba(129, 178, 197, 0.6);
     border-radius: 10px;
     margin: 0vh 2vh 2vh 2vh;
     padding-top: 4vh;
+    
 }
 .solicitudesBem__form{
     margin: 1vh 1vh 5vh 1vh;
     
 }
 .solicitudesBem--titulos{
-    color: rgba(117, 98, 45, 1);
-    font-size: 50px;
-    text-shadow: 2px 2px 5px black;
+    color: rgba(33, 97, 93, 255);
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
 /*FOOTER BEM*/
 .footerBem{
-    background-color: rgba(79, 218, 37, 0.18);
+    background-color: rgba(129, 178, 197, 0.18);
     border-radius: 10px;
     margin: 0vh 2vh 2vh 2vh;
     padding-top: 4vh;
@@ -110,49 +120,71 @@
 /*MONITOREO BEM*/
 
 .herramientaBem{
-    background-color: rgba(79, 218, 37, 0.18);
+    background-color: rgba(129, 178, 197, 0.6);
     border-radius: 10px;
-    margin: 0vh 2vh 2vh 2vh;
+    margin: 2vh 2vh 2vh 2vh;
     padding-top: 4vh;
 }
 .herramientaBem__mapa{
     width: 180vh;
-    height: 80vh;
-    display: inline;
-    margin: 2vh 20vh 2vh 0vh;
-    padding: 2vh 2vh 2vh 2vh;
+    height: 120vh;
+    
     border-radius: 15px;
-    border: solid black;
+    
 }
 
 .herramientaBem__titulos{
-    color: rgba(117, 98, 45, 1);
-    font-size: 50px;
-    text-shadow: 2px 2px 5px black;
+    color: rgba(33, 97, 93, 255);
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
     text-align: center;
 }
 
 /*RECORRIDO BEM*/
 .recorridoBem{
-    background-color: rgba(79, 218, 37, 0.18);
+    background-color: rgba(129, 178, 197, 0.18);
     border-radius: 10px;
     margin: 0vh 2vh 2vh 2vh;
     padding-top: 4vh;
 }
 .recorridoBem__360{
-    width: 180vh;
+    width: 160vh;
     height: 80vh;
-    display: inline;
-    margin: 2vh 25vh 2vh 0vh;
+    margin: 2vh 2vh 2vh 0vh;
     padding: 2vh 2vh 2vh 2vh;
+    
     border-radius: 15px;
     border: solid black;
 }
 
 .recorridoBem__titulos{
-    color: rgba(117, 98, 45, 1);
-    font-size: 50px;
-    text-shadow: 2px 2px 5px black;
+    color: rgba(33, 97, 93, 255);
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*VOLUNTARIO BEM*/
+.voluntarioBem{
+    background-color: rgba(129, 178, 197, 0.18);
+    border-radius: 10px;
+    margin: 0vh 2vh 2vh 2vh;
+    padding-top: 4vh;
+}
+.voluntarioBem__formulario{
+    width: 160vh;
+    height: 80vh;
+    margin: 2vh 2vh 2vh 0vh;
+    padding: 2vh 2vh 2vh 2vh;
+    
+    border-radius: 15px;
+    border: solid black;
+}
+
+.voluntarioBem__titulos{
+    color: rgba(33, 97, 93, 255);
+    font-size: 40px;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -164,7 +196,7 @@
 
 
 body{
-    background-color: rgb(117, 98, 45) !important;
+    background-color: whitesmoke!important;
 }
 
 div{
@@ -426,6 +458,7 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
     padding: 2% 10% 2% 10%;
     margin: 0.2% 0.0% 2% 0%;
     grid-area: etapas;
+    
        
 }
 .protocolo{
@@ -441,6 +474,12 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
     text-align: center;
        
 }
+.formBoton{
+    
+    
+    text-align: center;
+}
+
 .footer{
     padding: 2% 10% 2% 10%;
     margin: 0.2% 0.0% 2% 0%;
@@ -498,7 +537,7 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
             padding: 2% 10% 2% 10%;
             margin: 0.2% 0.0% 2% 0%;
             grid-area: voluntario;
-            border: solid black;
+            
             
         }
 
