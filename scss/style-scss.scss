@@ -1,65 +1,61 @@
 /*--------------------------INDEX BEM*/
 /*MENU BEM*/
 .menuBem{
-    background-color: rgba(129, 178, 197, 0.18);
+    /*background-color: rgba(129, 178, 197, 0.6);*/
     border-radius: 0;
     margin: 0vh 0vh 0vh 0vh;
     padding-top: 0vh;
+    
 }
 .menuBem--titulos{
     color: rgba(33, 97, 93, 255);
-    font-size: 40px;
+    font-size: 25px;
     text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    text-align: left;
     
 }
-/*.menuBem--activo{
-    background-color: rgb(117, 98, 45);
-    padding: 1vh 1vh 1vh 1vh;
-    margin: 1vh 1vh 1vh 1vh;
-}*/
 .menuBem--titulosActivos{
     color: rgba(33, 97, 93, 255);
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
-
+.menuBem--fixedTop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+.menuBem--color{
+    background-color: rgb(255, 255, 255);
+}
 /*GALERIA BEM*/
 .galeriaBem{
-    background-color: rgba(129, 178, 197, 0.6);
-}
-
-.galeriaBem__activo{
-    opacity: 0.5;
-    border-radius: 10px;
-}
-
-.galeriaBem__activo:hover{
-    opacity: 1.0;
-}
-.galeriaBem--notorio{
-    font-size: 250%;
-    text-align: center;
-    color: rgba(33, 97, 93, 255);
-    font-size: 40px;
-    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    border-radius: 0px;
 }
 .galeriaBem--imagenes{
-    width: 70vh;
-    height: 50vh;
-    display: inline;
-    margin: 2vh 2vh 2vh 2vh;
+    width: 95%;
+    height: 80vh;
+    
+    margin: 0vh 5vh 0vh 5vh;
     
 }
+.galeriaBem--imagenes2{
+    object-fit: cover;
+    height:70vh
+    
+}
+
 .galeriaBem__imagenes{
-    margin: 1vh 5vh 1vh 0vh; 
+    margin: 1vh 0vh 1vh 0vh; 
 }
 
 /*PROTOCOLO BEM*/
 .protocoloBem{
-    background-color: rgba(129, 178, 197, 0.6);
+    /*background-color: rgba(129, 178, 197, 0.6);*/
     border-radius: 0px;
-    margin: 0vh 2vh 2vh 2vh;
-    padding-top: 5vh;
+    margin: 0vh 0vh 0vh 0vh;
+    padding-top: 0vh;
     
 }
 .protocoloBem--titulos{
@@ -73,30 +69,43 @@
     font-size: 20px;
     text-shadow: 2px 2px 5px black; }
 
+.protocoloBem--img{
+margin-left :20vh; width: 320px;
+
+}
+
 /*ETAPAS BEM*/
 .etapasBem{
-    background-color: rgba(129, 178, 197, 0.6);
+    /*background-color: rgba(129, 178, 197, 0.6);*/
     border-radius: 0px;
-    margin: 0vh 2vh 2vh 2vh;
-    padding-top: 5vh;
+    margin: 0vh 0vh 0vh 0vh;
+    padding-top: 0vh;
     
 }
 .etapasBem--titulos{
     color: rgba(33, 97, 93, 255);
-    font-size: 40px;
+    
     text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+.etapasBem--container{
+    margin: 1vh 1vh 15vh 1vh;
+}
+.etapasBem--text{
+    margin: 1vh 1vh 1vh 1vh;
+    padding: 1.5vh 1.5vh 1.5vh 1.5vh;
 }
 /*SOLICITUDES BEM*/
 
 .solicitudesBem{
-    background-color: rgba(129, 178, 197, 0.6);
-    border-radius: 10px;
-    margin: 0vh 2vh 2vh 2vh;
-    padding-top: 4vh;
+   /* background-color: rgba(129, 178, 197, 0.6);*/
+    border-radius: 0px;
+    margin: 0vh 0vh 0vh 0vh;
+    padding-top: 0vh;
     
 }
 .solicitudesBem__form{
     margin: 1vh 1vh 5vh 1vh;
+    padding: 1vh 20vh 1vh 20vh;
     
 }
 .solicitudesBem--titulos{
@@ -106,9 +115,9 @@
 }
 /*FOOTER BEM*/
 .footerBem{
-    background-color: rgba(129, 178, 197, 0.18);
-    border-radius: 10px;
-    margin: 0vh 2vh 2vh 2vh;
+    /*background-color: rgba(129, 178, 197, 0.18);*/
+    border-radius: 0px;
+    margin: 2vh 2vh 2vh 2vh;
     padding-top: 4vh;
 }
 .footerBem--titulos{
@@ -116,12 +125,93 @@
     font-size: 20px;
     text-shadow: 0.5px 0.5px 2px black;;
 }
+/*Media Queris Index*/
+
+@media screen and (max-width:1000px){
+    .galeriaBem--imagenes{
+        width: 95%;
+        height: 80vh;
+        
+        margin: 0vh 5vh 0vh 2.5vh;
+            }
+    .protocoloBem--img{
+            margin-left :5vh; 
+            width: 250px;
+                
+            }
+    .titlesDr{
+                font-family: Impact, sans-serif;
+                font-weight: bold;
+                font-size: 3vw;
+                margin-top: 50vh;
+                margin-bottom: 15vh;
+            }
+    .titlesMv{
+                font-family: Impact, sans-serif;
+                font-weight: bold;
+                font-size: 3vw;
+                margin-top: 10vh;
+                margin-bottom: 15vh;
+            }
+    
+    
+}
+@media screen and (max-width:700px){
+    .galeriaBem--imagenes{
+        width: 95%;
+        height: 80vh;
+        object-fit: cover;
+        margin: 0vh 5vh 0vh 2vh;
+            }
+    .protocoloBem--img{
+            margin-left :5vh; 
+            width: 150px;
+                
+            }
+}
+@media screen and (max-width:450px){
+    .galeriaBem--imagenes{
+        width: 90%;
+        height: 60vh;
+        object-fit: cover;
+        margin: 15vh 2vh 0vh 2vh;
+            }
+    .protocoloBem--img{
+            margin-left :1vh; 
+            width: 150px;
+                
+            }
+     .subTitles{
+                font-family: impact, sans-serif;
+                font-weight:normal;
+                font-size: 15%;
+                text-align: center;
+            }
+    .galeriaBem--imagenes2{
+                object-fit: cover;
+                height:45vh
+                
+            }
+     .solicitudesBem__form{
+                margin: 1vh 1vh 5vh 1vh;
+                padding: 1vh 5vh 1vh 5vh;
+                
+            }
+    .input2{
+                width: 15%;
+                padding: 12px 20px;
+                border-radius: 00px;
+            }
+       
+    
+
+}
 
 /*MONITOREO BEM*/
 
 .herramientaBem{
-    background-color: rgba(129, 178, 197, 0.6);
-    border-radius: 10px;
+    /*background-color: rgba(129, 178, 197, 0.6);*/
+    border-radius: 0px;
     margin: 2vh 2vh 2vh 2vh;
     padding-top: 4vh;
 }
@@ -142,9 +232,9 @@
 
 /*RECORRIDO BEM*/
 .recorridoBem{
-    background-color: rgba(129, 178, 197, 0.18);
-    border-radius: 10px;
-    margin: 0vh 2vh 2vh 2vh;
+    /*background-color: rgba(129, 178, 197, 0.6);*/
+    border-radius: 00px;
+    margin: 2vh 2vh 2vh 2vh;
     padding-top: 4vh;
 }
 .recorridoBem__360{
@@ -166,7 +256,7 @@
 
 /*VOLUNTARIO BEM*/
 .voluntarioBem{
-    background-color: rgba(129, 178, 197, 0.18);
+   /* background-color: rgba(129, 178, 197, 0.18);*/
     border-radius: 10px;
     margin: 0vh 2vh 2vh 2vh;
     padding-top: 4vh;
@@ -188,27 +278,27 @@
     text-align: center;
 }
 
-
-
-
-
-
-
-
 body{
-    background-color: whitesmoke!important;
-}
+    
+        background: linear-gradient(-45deg, #457e03, #9c7405, #807704, #0a461c);
+        background-size: 400% 400% ;
+        animation: gradient 15s ease infinite;
+        
+    }
+    
+@keyframes gradient { 
+        0% {background-position: 0% 50%;   }
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+    
 
-div{
-    div{
-        margin: 2vh 2vh 2vh 2vh;
-            input{
+
+.input2{
                 width: 8%;
                 padding: 12px 20px;
                 border-radius: 10px;
             }
-    }
-}
 
 fieldset{
     label {
@@ -254,97 +344,42 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
     font-family: impact, sans-serif;
     font-weight:normal;
     font-size: 220%;
-}
-.subTitles2{
-    font-family: impact, sans-serif;
-    font-weight:100;
-    font-size: 150%;
+    text-align: center;
 }
 .paragraphLeft{
     text-align: left;
     font-weight: normal;
-    font-size: 150%;
+    font-size: 100%;
     
 }
-.paragraphCenter{
-    text-align: center;
-    font-weight: normal;
-    font-size: 150%;
-    
-}
-.paragraphRight{
-    text-align:right;
-    font-weight: normal;
-    font-size: 150%;
-    
-}
-/*Backgrounds*/
-.pt28 {
-    background-color: #282828;
-    background-image: -webkit-radial-gradient(black 15%, transparent 16%), -webkit-radial-gradient(black 15%, transparent 16%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -webkit-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
-    background-image: -moz-radial-gradient(black 15%, transparent 16%), -moz-radial-gradient(black 15%, transparent 16%), -moz-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -moz-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
-    background-image: -ms-radial-gradient(black 15%, transparent 16%), -ms-radial-gradient(black 15%, transparent 16%), -ms-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -ms-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
-    background-image: -o-radial-gradient(black 15%, transparent 16%), -o-radial-gradient(black 15%, transparent 16%), -o-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), -o-radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
-    background-image: radial-gradient(black 15%, transparent 16%), radial-gradient(black 15%, transparent 16%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
-    background-position: 0 0px, 8px 8px, 0 1px, 8px 9px;
-    background-size: 16px 16px;
-    background-repeat: repeat;
-}
-.pt4 {
-    background-size: 50px 50px;
-    background-color: #ac0;
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-    background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
-}
-.pt5 {
-    
-    background-color:white;
-}
+
 
 /*Index Containers and elements*/
 .indexContainer {
     display: grid;
-    grid-template-areas: "header header header header header header header header header"
-                         "header header header header header header header header header"
-                         "navigation navigation navigation navigation navigation navigation navigation navigation navigation"
-                         "navigation navigation navigation navigation navigation navigation navigation navigation navigation"
-                         "galeria galeria galeria galeria galeria galeria galeria galeria galeria"
-                         "galeria galeria galeria galeria galeria galeria galeria galeria galeria"
-                         "galeria galeria galeria galeria galeria galeria galeria galeria galeria"
-                         "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas"
-                         "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas"
-                         "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas"
-                         "protocolo protocolo protocolo protocolo protocolo etapas etapas etapas etapas"
-                         "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion"
-                         "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion"
-                         "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion"
-                         "investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion investigacion"
-                         "footer footer footer footer footer footer footer footer footer"
-                         "footer footer footer footer footer footer footer footer footer";
-                         grid-template-columns: auto;
-                         grid-template-rows: auto;
-                         grid-gap: 0vh;
+    grid-template-areas: "nav nav"
+                         
+                         "galeria galeria"
+                         
+                         "protocolo etapas"
+                         
+                         "investigacion investigacion"
+                         
+                         
+                         "footer footer";
+                         grid-template-columns: 50% 50%;
+                         grid-template-rows: auto auto auto auto;
+                         grid-gap: 0.0vh;
 }
 
-.navMenu0{
-    padding: 2% 10% 2% 10%;
-    grid-area: logo;
-     
-    
-}
 .header{
-    padding: 1% 1% 1% 1%;
-    margin: 0.2% 0.0% 0% 0%;
+    margin: 0.0% 0.0% 0% 0%;
     font-family: impact, sans-serif;
     font-weight:normal;
     font-size: 220%;
     text-align: center;
-    grid-area: header;
-    
-    align-items: center; 
+    grid-area: nav;
+    align-items: right; 
 }
 .navigation{
     padding: 2% 10% 2% 10%;
@@ -356,16 +391,7 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
     grid-area: navigation;
     align-items: center; 
 }
-
-/*.navigationMenu{
-    display: grid
-    grid-template-areas: "galeria etapas protocolo"
-                         "... voluntario solicitudes";
-                         grid-template-columns: auto;
-    grid-template-rows: ;
-    grid-gap: 1vh;
-}*/
-
+/*
 .navMenu{
     display: grid;
     grid-template-areas: "galeria etapas protocolo"
@@ -376,9 +402,6 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
     grid-template-rows: 1500px;
     grid-gap: 0.5vh;
 }
-
-
-
 
 .navMenu1{
     padding: 0% 5% 2% 10%;
@@ -428,10 +451,7 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
     font-size: 220%;
     text-align: center;
     grid-area: voluntario;
-    
-   
-    
-    
+     
 }
 .navMenu5{
     padding: 0% 5% 2% 10%;
@@ -443,33 +463,31 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
     grid-area: solicitudes;
    
     
-    
 }
+*/
 
 .galeria{
-    padding: 2% 10% 2% 10%;
-    margin: 0.2% 0.0% 2% 0%;
+    width: 100%;
     grid-area: galeria;
     
     
 }
 
 .etapas{
-    padding: 2% 10% 2% 10%;
-    margin: 0.2% 0.0% 2% 0%;
+    
+    margin: 0% 0.0% 0% 0%;
     grid-area: etapas;
     
        
 }
 .protocolo{
-    padding: 2% 10% 2% 10%;
-    margin: 0.2% 0.0% 2% 0%;
+    
     grid-area: protocolo;
       
 }
 .investigacion{
-    padding: 2% 10% 2% 10%;
-    margin: 0.2% 0.0% 2% 0%;
+    padding: 0vh 0vh 0vh 0vh;
+    margin: 0.0% 0.0% 0% 0%;
     grid-area: investigacion;
     text-align: center;
        
@@ -481,8 +499,8 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
 }
 
 .footer{
-    padding: 2% 10% 2% 10%;
-    margin: 0.2% 0.0% 2% 0%;
+    padding: 0% 0% 0% 0%;
+    margin: 0.0% 0.0% 0% 0%;
     grid-area: footer;
 }
 
@@ -490,55 +508,369 @@ a:hover, a:link, a:active{text-decoration: none;color:unset !important;}
 
 .monitoreoContainer {
     display: grid;
-    grid-template-areas: "header header header header header header"
-                         "header header header header header header"
-                         "herramienta herramienta herramienta herramienta herramienta herramienta"
-                         "herramienta herramienta herramienta herramienta herramienta herramienta"
-                         "herramienta herramienta herramienta herramienta herramienta herramienta"
-                         "herramienta herramienta herramienta herramienta herramienta herramienta"
-                         "herramienta herramienta herramienta herramienta herramienta herramienta"
-                         "footer footer footer footer footer footer"
-                         "footer footer footer footer footer footer";
+    grid-template-areas: "nav nav nav nav nav nav nav"
+                         "... herM ... her1a her1b her1c ..."
+                         "... herM ... her2a her2a her2a ..."
+                         "... herM ... her2a her2a her2a ..."
+                         "... herM ... her4a her4b her4c ..."
+                         "... herM ... her5a her5b her5c ..."
+                         "footer footer footer footer footer footer footer"
+                         ;
                              
-    grid-template-columns: 100px;
-    grid-template-rows: auto;
-    grid-gap: 1vh;
+    grid-template-columns: 40px 1fr 40px 1fr 1fr 1fr 40px;
+    grid-template-rows:auto 45vh auto auto auto auto auto auto ;
+    grid-gap: 0.0vh;
     }
 
-.herramienta{
-        padding: 2% 10% 2% 10%;
-        margin: 0.2% 0.0% 2% 0%;
-        grid-area: herramienta;
-        
-        
+.herM{
+        padding: 10% 1% 80vh 1%;
+        margin: 10vh 0.0% 0% 0%;
+        grid-area: herM;
+        background-color: rgba(163, 103, 29, 0.562);
+        display: block;
     }
+.titlesDr{
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-top: 50vh;
+    margin-bottom: 15vh;
+}
+.titlesMv{
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+/*her1*/
+.her1a{
+        padding: 10% 5% 0% 0%;
+        margin: 10vh 5% 0% 0%;
+        grid-area: her1a;
+        display: grid;
+        grid-template-areas: "datos1 datos2 datos3"
+                             "indi1 indi2 indi3"
+        ;
+        grid-template-columns: 120px 120px 120px;
+        grid-template-rows: 100px 20px;
 
+        
+ }
+.datos1{
+    width: 15px;
+    height: 80px;
+    grid-area: datos1;
+    background-color: red;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.datos2{
+    width: 15px;
+    height: 15px;
+    grid-area: datos2;
+    background-color: rgb(3, 2, 2);
+    margin-left: 45%;
+    margin-top: 65%;
+}
+.datos3{
+    width: 15px;
+    height: 45px;
+    grid-area: datos3;
+    background-color: rgb(255, 255, 255);
+    margin-left: 45%;
+    margin-top: 40%;
+}
+.indi1{
+    font-family: impact, sans-serif;
+    font-weight:normal;
+    font-size: 100%;
+    text-align: center;
+    grid-area: indi1;
+}
+.indi2{
+    font-family: impact, sans-serif;
+    font-weight:normal;
+    font-size: 100%;
+    text-align: center;
+    grid-area: indi2;
+}
+.indi3{
+    font-family: impact, sans-serif;
+    font-weight:normal;
+    font-size: 100%;
+    text-align: center;
+    grid-area: indi3;
+}
+
+.her1b{
+        padding: 10% 0% 0% 0%;
+        margin: 10vh 0.0% 0% 10%;
+        grid-area: her1b;
+    }
+.chart1{
+    height: 25vh;
+}
+.her1{
+        border: solid black;
+    }
+/*her2*/
+.her2a{
+        padding: 1% 1% 1% 1%;
+        margin: 0.0% 0.0% 0% 0%;
+        grid-area: her2a;
+    }
+th, td{ 
+    padding: 15px;
+    text-align: center;
+    border:black 1px solid;
+}
+/*her4*/
+.her4a{
+    padding: 1% 1% 1% 1%;
+    margin: 0.0% 0.0% 0% 0%;
+    grid-area: her4a;
+}
+.her4b{
+    padding: 1% 1% 1% 1%;
+    margin: 0.0% 0.0% 0% 0%;
+    grid-area: her4b;
+}
+.her4c{
+    padding: 1% 1% 1% 1%;
+    margin: 0.0% 0.0% 0% 0%;
+    grid-area: her4c;
+}
+/*her5*/
+.her5a{
+    padding: 1% 1% 1% 1%;
+    margin: 0.0% 0.0% 0% 0%;
+    grid-area: her5a;
+}
+.her5b{
+    padding: 1% 1% 1% 1%;
+    margin: 0.0% 0.0% 0% 0%;
+    grid-area: her5b;
+}
+.her5c{
+    padding: 1% 1% 1% 1%;
+    margin: 0.0% 0.0% 0% 0%;
+    grid-area: her5c;
+}
 
 /*Voluntariadeo Container and elements*/
 
 .voluntarioContainer {
         display: grid;
-        grid-template-areas: "header header header header header header"
-                             "header header header header header header"
-                             "voluntario voluntario voluntario voluntario voluntario voluntario"
-                             "voluntario voluntario voluntario voluntario voluntario voluntario"
-                             "voluntario voluntario voluntario voluntario voluntario voluntario"
-                             "voluntario voluntario voluntario voluntario voluntario voluntario"
-                             "voluntario voluntario voluntario voluntario voluntario voluntario"
-                             "footer footer footer footer footer footer"
-                             "footer footer footer footer footer footer";
+        grid-template-areas: "nav"
+                             "voluntario"
+                             "footer"
+                             ;
                                  
-        grid-template-columns: 100px;
-        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
         grid-gap: 1vh;
         }
     
 .voluntario{
-            padding: 2% 10% 2% 10%;
-            margin: 0.2% 0.0% 2% 0%;
-            grid-area: voluntario;
-            
+            padding: 10% 10% 2% 10%;
+            margin: 1vh 1vh 1vh 1vh;
+            grid-area: voluntario;  
             
         }
+/*Recorrido Container ands stuff*/
 
+.herramientaContainer {
+    display: grid;
+    grid-template-areas: "nav"
+                         "recorrido"
+                         "footer"
+                         ;
+                             
+    grid-template-columns: 100%;
+    grid-template-rows:auto 100vh auto ;
+    grid-gap: 0.0vh;
+    }
+
+.recorrido{
+        padding: 5% 10% 5% 10%;
+        margin: 1vh 1vh 1vh 20vh;
+        grid-area: recorrido;  
+        
+    }
+.mapa{
+    margin-left: 12vh;
+}
+/*galeria*/
+
+
+.GaleriaContainer {
+    display: grid;
+    grid-template-areas: "nav"
+                         "galeria"
+                         "footer"
+                         ;
+                             
+    grid-template-columns: auto;
+    grid-template-rows:auto auto auto;
+    grid-gap: 1vh;
+    }
+
+.galeria{
+    grid-area: galeria;
+    margin-top: 10vh;
+    }
+
+.imagen1{ 
+    width: 100%;
+    height: auto;
+    }
+/*
+.area2{
+        grid-area: imagen2;
+        }
+
+.imagen2{
+    width: 100%;
+    height: auto;
+    }
+
+.area3{
+        grid-area: imagen3;
+        }
+
+.imagen3{
+    width: 100%;
+    height: 100%;
+    }
+
+.area4{
+        grid-area: imagen4;
+        }
+
+.imagen4{
+    width: 100%;
+    height: 100%;
+    }
+
+.area5{
+        grid-area: imagen5;
+        } 
+
+.imagen5{
+    width: 100%;
+    height: 100%;
+    }
+
+.area6{
+    grid-area: imagen6;
+    }
+
+.imagen6{
+    width: 100%;
+    height: 100%;
+    }
+ 
+.area7{
+    grid-area: imagen7;
+    }   
+
+.imagen7{
+    width: 100%;
+    height: 100%;
+    }
+
+.area8{
+    grid-area: imagen8;
+   
+    }
+
+.imagen8{
+    
+    width: 100%;
+    height: 100%;
+    }
+
+.area9{
+    grid-area: imagen9;
+    }
+
+.imagen9{
+    width: 100%;
+    height: 100%;
+    }
+    */
+.galeria-container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    .imagen{
+        width: 32%;
+        position: relative;
+        height: 250px;
+        margin-bottom: 5px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+       
+    }
+}
+.imagen{
+    img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+    }
+}
+.overlayImg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(163, 103, 29, 0.336);
+    width: 100%;
+    height: 0%;
+    
+    overflow: hidden;
+    transition: .5s ease;
+    h2{
+        font-weight: 300;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+
+    }
+}
+
+.imagen:hover .overlayImg{
+    height: 100%;
+    cursor: pointer;
+}
+
+/*Media Queris Galeria*/
+
+@media screen and (max-width:1000px){
+    .galeria-container{
+        width: 95%;
+    }
+}
+@media screen and (max-width:700px){
+    .galeria-container{
+        width: 90%;
+        .imagen{
+            width: 48%;
+        }
+    }
+}
+@media screen and (max-width:450px){
+    .galeria-container{
+        width: 98%;
+        .imagen{
+            width: 80%;
+        }
+    }
+}
 
